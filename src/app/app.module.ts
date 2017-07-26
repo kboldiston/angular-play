@@ -3,7 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { MdToolbarModule, MdButtonModule, MdSidenavModule, MdListModule } from '@angular/material';
+import { 
+  MdToolbarModule, 
+  MdButtonModule,
+  MdSidenavModule, 
+  MdListModule, 
+  MdInputModule,
+  MdCardModule
+} from '@angular/material';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -17,7 +24,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MdToolbarModule,
     MdButtonModule,
     MdSidenavModule,
-    MdListModule
+    MdListModule,
+    MdInputModule,
+    MdCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
